@@ -260,6 +260,8 @@
     "EnableIPv6Hint": "Activer uniquement si pris en charge par le FAI",
     "EnableLPDHint": "Le LPD permet aux appareils connectés au même réseau domestique de s'identifier mutuellement et de partager directement des fichiers torrent",
     "EnableLPDIPv6Hint": "Activer uniquement si pris en charge par le FAI",
+    "PreferLocalPeers": "Préférer les pairs locaux",
+    "PreferLocalPeersHint": "Prendre d'abord les morceaux auprès des pairs du réseau local (un autre client sur cet appareil ou sur le réseau domestique) et toujours les accepter, même si la limite de connexions est atteinte",
     "EnableRutorSearch": "Activer la recherche de torrents par RuTor",
     "EnableRutorSearchHint": "Vous pouvez rechercher des torrents par RuTor, même si RuTor n'est pas disponible. NOTE : La base de données prend environ 500 Mo de RAM.",
     "ForceEncrypt": "Forcer le chiffrement des en-têtes",

@@ -266,6 +266,8 @@
     "EnableIPv6Hint": "仅在ISP支持时启用",
     "EnableLPDHint": "LPD 允许连接到同一家庭网络的设备相互识别，并直接共享种子文件",
     "EnableLPDIPv6Hint": "仅在ISP支持时启用",
+    "PreferLocalPeers": "优先使用本地节点",
+    "PreferLocalPeersHint": "优先从本地网络中的节点（本设备或家庭网络中的其他客户端）获取数据块，即使已达到连接数上限也始终接受它们",
     "EnableRutorSearch": "打开RuTor种子搜索",
     "EnableRutorSearchHint": "您可以通过RuTor搜索种子，即使RuTor不可用。注意：数据库占用大约500 MB的存储。",
     "ForceEncrypt": "强制加密标头",

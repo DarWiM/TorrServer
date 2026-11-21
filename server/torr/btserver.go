@@ -114,6 +114,7 @@ func (bt *BTServer) configure() {
 	bt.config.NoDefaultPortForwarding = settings.BTsets.DisableUPNP
 	bt.config.NoDHT = settings.BTsets.DisableDHT
 	bt.config.DisablePEX = settings.BTsets.DisablePEX
+	bt.config.PreferLocalPeers = settings.BTsets.PreferLocalPeers
 	bt.config.NoUpload = settings.BTsets.DisableUpload
 	bt.config.IPBlocklist = blocklist
 	bt.config.Bep20 = peerID

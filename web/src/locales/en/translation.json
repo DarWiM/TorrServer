@@ -260,6 +260,8 @@
     "EnableIPv6Hint": "Enable only if supported by ISP",
     "EnableLPDHint": "LPD allows devices on the same home network to find each other and share torrent files directly",
     "EnableLPDIPv6Hint": "Enable only if supported by ISP",
+    "PreferLocalPeers": "Prefer local peers",
+    "PreferLocalPeersHint": "Take pieces from peers in your local network (another client on this device or in the home network) first, and always accept them even when the connections limit is reached",
     "EnableRutorSearch": "Turn on torrents search by RuTor",
     "EnableRutorSearchHint": "You can search torrents by RuTor, even if the RuTor is not available. NOTE: The database takes about 500 MB of RAM.",
     "ForceEncrypt": "Force Encrypt Headers",

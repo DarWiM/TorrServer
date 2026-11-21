@@ -65,6 +65,7 @@ export default function SecondarySettingsComponent({ settings, inputForm, update
     DisableUpload,
     EnableLPD,
     LPDIPv6,
+    PreferLocalPeers,
     DownloadRateLimit,
     UploadRateLimit,
     ConnectionsLimit,
@@ -214,6 +215,14 @@ export default function SecondarySettingsComponent({ settings, inputForm, update
           labelPlacement='start'
         />
         <FormHelperText margin='none'>{t('SettingsDialog.EnableLPDIPv6Hint')}</FormHelperText>
+      </FormGroup>
+      <FormGroup>
+        <FormControlLabel
+          control={<Switch checked={!!PreferLocalPeers} onChange={inputForm} id='PreferLocalPeers' color='secondary' />}
+          label={t('SettingsDialog.PreferLocalPeers')}
+          labelPlacement='start'
+        />
+        <FormHelperText margin='none'>{t('SettingsDialog.PreferLocalPeersHint')}</FormHelperText>
       </FormGroup>
       <TextField
         onChange={inputForm}

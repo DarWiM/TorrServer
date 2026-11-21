@@ -266,6 +266,8 @@
     "EnableIPv6Hint": "Activați numai dacă este acceptat de ISP",
     "EnableLPDHint": "LPD permite dispozitivelor conectate la aceeași rețea de acasă să se identifice reciproc și să partajeze fișiere torrent direct",
     "EnableLPDIPv6Hint": "Activați numai dacă este acceptat de ISP",
+    "PreferLocalPeers": "Preferă peer-ii locali",
+    "PreferLocalPeersHint": "Ia mai întâi bucățile de la peer-ii din rețeaua locală (alt client pe acest dispozitiv sau în rețeaua de acasă) și acceptă-i întotdeauna, chiar dacă limita de conexiuni este atinsă",
     "EnableRutorSearch": "Activați căutarea torrentelor prin RuTor",
     "EnableRutorSearchHint": "Puteți căuta torrente prin RuTor, chiar dacă RuTor nu este disponibil. NOTĂ: Baza de date ocupă aproximativ 500 MB de RAM.",
     "ForceEncrypt": "Forțează criptarea anteturilor",

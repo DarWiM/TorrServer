@@ -86,6 +86,11 @@ type BTSets struct {
 	EnableLPD bool
 	LPDIPv6   bool
 
+	// Prefer peers on the local network (loopback, private, link-local):
+	// pieces a local peer has are not requested from remote peers, and local
+	// peers are always accepted, even when ConnectionsLimit is reached.
+	PreferLocalPeers bool
+
 	// HTTPS
 	SslPort int
 	SslCert string
